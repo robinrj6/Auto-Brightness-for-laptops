@@ -11,11 +11,8 @@ if vc.isOpened():
 else:
     rval = False
 
-
 def brightness(frame):
     return numpy.mean(frame)
-
-
 
 while rval:
     rval, frame = vc.read()
