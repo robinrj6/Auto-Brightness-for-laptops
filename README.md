@@ -2,10 +2,7 @@
   This is a simple Python program to automatically adjust the screen brightness of a laptop, using the webcam to obtain the light intensity around the user.
 
 Installation
-  1. Clone or download the repository into a new folder.
-  2. Open a terminal in that folder and type "python setup.py py2exe" without quotes.
-  3. Wait for the process to complete. 
-
+  Double click on build.bat
 Running
 
   Run ui.py and click Run button. To stop, click Stop button
