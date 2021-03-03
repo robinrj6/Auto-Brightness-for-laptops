@@ -17,7 +17,7 @@ def resource_path(relative_path):
 
 
 def run():
-    subprocess.Popen([resource_path('main.exe')])
+    subprocess.Popen([resource_path('./main/main.exe')])
 
 
 def stop():
