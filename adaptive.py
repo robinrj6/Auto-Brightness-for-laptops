@@ -1,5 +1,4 @@
 import cv2
-from PIL import Image, ImageStat
 import numpy
 import screen_brightness_control as sbc
 from numpy import interp
@@ -11,11 +10,8 @@ if vc.isOpened():
 else:
     rval = False
 
-
 def brightness(frame):
     return numpy.mean(frame)
-
-
 
 while rval:
     rval, frame = vc.read()
